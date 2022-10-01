@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { Movie } from "../typings";
-import { baseUrl } from "./constants/movie";
 import {FaPlay, FaInfoCircle} from "react-icons/fa"
+import { baseUrl } from "../constants/movie";
 
 interface Props {
   netflixOriginals: Movie[];
