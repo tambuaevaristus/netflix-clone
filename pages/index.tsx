@@ -36,7 +36,7 @@ const Home = ({
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main>
+      <main className="relative pl-8 pb-24 lg:space-y-24">
         <Banner  netflixOriginals={netflixOriginals}/>
         <section>
 
